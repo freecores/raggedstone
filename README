@@ -1,0 +1,19 @@
+This logic is for the Enterpoint Spartan-3 based PCI fpga card.
+
+The code needs to be built with the Xilinx tools. You can
+download the Xilinx tools for free from xilinx.com. It also
+generates a bit of the VHDL by perl, so you need that installed
+also.
+
+Steps to building & using this code:
+
+1) Install Linux (it should include perl)
+2) Download and install the Xilinx WebPack for Linux
+	* It's about 1GB and Xilinx provides it for free
+	* The Xilinx tools include a settings.sh file
+	  that you need to run to add the tools to your path
+3) Run make to synthisize the image
+4) program your card over jtag with XC3prog
+	xc3sprog pci_7seg.bit
+
+-- Jeff Carr <basilarchia@gmail.com>
