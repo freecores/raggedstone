@@ -16,4 +16,8 @@ Steps to building & using this code:
 4) program your card over jtag with XC3prog
 	xc3sprog pci_7seg.bit
 
+
+This port of the OpenCores PCI core was originally done by Manuel Bessler.
+http://projects.varxec.net/raggedstone1
+
 -- Jeff Carr <basilarchia@gmail.com>
